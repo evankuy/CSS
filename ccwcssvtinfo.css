@@ -1,165 +1,160 @@
-/* Finder Styles for CCW */\
-\
-/*\
-\
-finder_body body element; contains all other elements\
-finder_header \'93Search for a product\'94\
-finder form element; contains search form\
-finder_brands \'93Results for Brand XYZ\'94\
-finder_table table of results\
-finder_thead table header of results\
-finder_tbody table body of results\
-finder_row_a table row; alternates between \'93a\'94 and \'93b\'94\
-finder_row_b table row; same\
-finder_num table cell; result #\
-finder_dba table cell; Doing Business As; ie. \'93Corner Store ABC\'94\
-finder_map table cell; link to map of a store\'92s address\
-finder_miles table cell; miles from searched location\
-finder_address table cell; address of resulting location\
-finder_phone table cell; phone of resulting location\
-#finderMarkerLayer img can be used to alter the map pinpoints\
-vipcopyright table element; contains VIP logo and copyright;\
-\
-we appreciate you keeping this visible\
-\
-*/\
-\
-#finder_body \{\
-	font-family: 
-\f1\i niveau
-\f0\i0 -
-\f1\i grotesk
-\f0\i0 , sans-serif;\
-\}\
-\
-#finder_form \{\
-	padding: 40px;\
-\}\
-\
-#finder_cards \{\
-	margin: 0;\
-	height: 100%;\
-\}\
-\
-.card \{\
-	-webkit-border-radius: 0px;\
-	-moz-border-radius: 0px;\
-	border-radius: 0px;\
-\}\
-\
-#form-group-near \{\
-	margin-bottom: 40px !important;\
-\}\
-\
-#form-group-near > label, #form-group-within > label \{\
-	margin-bottom: 20px;\
-\}\
-\
-#finder_body .btn \{\
-	-webkit-border-radius: 0px;\
-	-moz-border-radius: 0px;\
-	border-radius: 0px;\
-\}\
-\
-#finder_zip \{\
-	border-color: #343f48;\
-\}\
-\
-#finder_geolocation_button \{\
-	background: #343f48;\
-    border: none;\
-\}\
-\
-#finder_geolocation_button > svg \{\
-	fill: white;\
-\}\
-\
-#miles .btn \{\
-	border-color: #343f48;	\
-\}\
-\
-body.THEME_bs-cerulean .btn-check:checked + .btn-outline-secondary, body.THEME_bs-cerulean .btn-outline-secondary:hover, body.THEME_bs-cerulean .btn-outline-secondary:focus, body.THEME_bs-cerulean .btn-outline-secondary:active \{\
-	background: #343f48 !important;\
-	color: white !important;\
-	background-image: none !important;\
-\}\
-\
-#form-group-at > label:nth-child(2), #form-group-at > label:nth-child(4) \{\
-	border: none;\
-    margin: 2px;\
-    background: #343f48 !important;\
-\}\
-\
-#form-group-at > label:nth-child(2):active, #form-group-at > label:nth-child(4):active, #form-group-at > label:nth-child(2):focus, #form-group-at > label:nth-child(4):focus \{\
-	background: #343f48 !important;\
-\}\
-\
-#form-group-at > label:nth-child(2) > div > svg, #form-group-at > label:nth-child(4) > div > svg \{\
-	fill: white;\
-\}\
-\
-.btn-outline-primary \{\
-	border-color: #343f48;\
-	color: #343f48;\
-\}\
-\
-.btn-outline-primary:hover \{\
-	border-color: #343f48;\
-	background: #343f48;\
-	color: white;\
-\}\
-\
-.btn-primary \{\
-	border-color: #343f48;\
-	background: #343f48;\
-	color: white;\
-\}\
-\
-.btn-primary:hover \{\
-	background: #6e6e78;\
-	border-color: #6e6e78;\
-\}\
-\
-.btn-primary.disabled, .btn-primary:disabled \{\
-	border-color: #343f48;\
-	background: #343f48;\
-	color: white;\
-\}\
-\
-.alert \{\
-    border: #343f48;\
-    border-radius: 0;\
-\}\
-\
-.alert-warning \{\
-	color: #495057;\
-    background-color: #F8DFEE;\
-    border-color: #343f48;\
-\}\
-\
-#panel_search_results > div > h4, #panel_search_results > div > h3, #map_tab_button, #locations_tab_button \{\
-	color: #343f48;\
-\}\
-\
-.btn-link \{\
-    color: #343f48;\
-\}\
-\
-.btn-link:hover \{\
-    color: #c85297;\
-\}\
-\
-\
-/* Large devices (desktops, 992px and down) */\
-@media (max-width: 992px) \{ \
-\
-#finder_cards \{\
-    margin: 0;\
-    height: auto;\
-\}\
-\
-\}\
-\
-\
-\
+/* Finder Styles for Eterno Verano */
+
+/*
+
+finder_body body element; contains all other elements
+finder_header “Search for a product”
+finder form element; contains search form
+finder_brands “Results for Brand XYZ”
+finder_table table of results
+finder_thead table header of results
+finder_tbody table body of results
+finder_row_a table row; alternates between “a” and “b”
+finder_row_b table row; same
+finder_num table cell; result #
+finder_dba table cell; Doing Business As; ie. “Corner Store ABC”
+finder_map table cell; link to map of a store’s address
+finder_miles table cell; miles from searched location
+finder_address table cell; address of resulting location
+finder_phone table cell; phone of resulting location
+#finderMarkerLayer img can be used to alter the map pinpoints
+vipcopyright table element; contains VIP logo and copyright;
+
+we appreciate you keeping this visible
+
+*/
+
+#finder_body {
+	font-family: niveau-grotesk, sans-serif;
 }
+
+#finder_form {
+	padding: 40px;
+}
+
+#finder_cards {
+	margin: 0;
+	height: 100%;
+}
+
+.card {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#form-group-near {
+	margin-bottom: 40px !important;
+}
+
+#form-group-near > label, #form-group-within > label {
+	margin-bottom: 20px;
+}
+
+#finder_body .btn {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#finder_zip {
+	border-color: #343f48;
+}
+
+#finder_geolocation_button {
+	background: #343f48;
+    border: none;
+}
+
+#finder_geolocation_button > svg {
+	fill: white;
+}
+
+#miles .btn {
+	border-color: #343f48;	
+}
+
+body.THEME_bs-cerulean .btn-check:checked + .btn-outline-secondary, body.THEME_bs-cerulean .btn-outline-secondary:hover, body.THEME_bs-cerulean .btn-outline-secondary:focus, body.THEME_bs-cerulean .btn-outline-secondary:active {
+	background: #343f48 !important;
+	color: white !important;
+	background-image: none !important;
+}
+
+#form-group-at > label:nth-child(2), #form-group-at > label:nth-child(4) {
+	border: none;
+    margin: 2px;
+    background: #343f48 !important;
+}
+
+#form-group-at > label:nth-child(2):active, #form-group-at > label:nth-child(4):active, #form-group-at > label:nth-child(2):focus, #form-group-at > label:nth-child(4):focus {
+	background: #c85297 !important;
+}
+
+#form-group-at > label:nth-child(2) > div > svg, #form-group-at > label:nth-child(4) > div > svg {
+	fill: white;
+}
+
+.btn-outline-primary {
+	border-color: #343f48;
+	color: #343f48;
+}
+
+.btn-outline-primary:hover {
+	border-color: #343f48;
+	background: #343f48;
+	color: white;
+}
+
+.btn-primary {
+	border-color: #343f48;
+	background: #343f48;
+	color: white;
+}
+
+.btn-primary:hover {
+	background: #c85297;
+	border-color: #c85297;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+	border-color: #343f48;
+	background: #343f48;
+	color: white;
+}
+
+.alert {
+    border: #343f48;
+    border-radius: 0;
+}
+
+.alert-warning {
+	color: #495057;
+    background-color: #F8DFEE;
+    border-color: #343f48;
+}
+
+#panel_search_results > div > h4, #panel_search_results > div > h3, #map_tab_button, #locations_tab_button {
+	color: #343f48;
+}
+
+.btn-link {
+    color: #343f48;
+}
+
+.btn-link:hover {
+    color: #c85297;
+}
+
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) { 
+
+#finder_cards {
+    margin: 0;
+    height: auto;
+}
+
+}
+
+
+
